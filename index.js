@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
   res.render('pages/index')
 })
 
-const ser = app.listen(port, () => {
+const ser = app.litj(port, () => {
   console.log(`Listening on ${port}`)
 })
 
